@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="Images/lg.png" type="image/png"/>
+	<title>Gallery</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="stylegal.css" type="text/css" />	
+</head>
+
+	<body>
+		<header>	
+			<div id="navi">
+					<ul>
+					<li><a href="index.html"><img src="Images/lg.png"  alt="home"></a></li>					
+						<li><a href=" Gallery.html " target="_blank">Gallery</a></li>
+						<li><a href=" Contact.html "target="_blank" > Contact </a></li>
+						<li><a href=" #About Us " > About </a></li>
+					</ul>			
+			</div>
+		</header>
+		
+		<h1> Gallery</h1>
+		<div class="container">
+			<div class="photo-gal">
+					
+				<div class="image"><img src="Images/img-1.png" alt=""></div>
+				<div class="image"><img src="Images/img-2.png" alt=""></div>
+				<div class="image"><img src="Images/img-3.png" alt=""></div>
+				<div class="image"><img src="Images/img-4.png" alt=""></div>
+				<div class="image"><img src="Images/img-5.png" alt=""></div>
+				<div class="image"><img src="Images/img-6.png" alt=""></div>
+				<div class="image"><img src="Images/img-7.png" alt=""></div>
+				<div class="image"><img src="Images/img-8.jpg" alt=""></div>
+				<div class="image"><img src="Images/img-9.jpg" alt=""></div>
+				<div class="image"><img src="Images/img-10.jpg" alt=""></div>
+				<div class="image"><img src="Images/img-11.jpg" alt=""></div>
+				<div class="image"><img src="Images/img-12.jpg" alt=""></div>
+			</div>
+		
+		</div>	
+	</body>
+	<div id="footer">
+		<div class="rght">
+			 <img src="Images/lg.png" class="image">
+				<ul>
+					<li><p>NagaCity</p></li>
+					<li><p>4400 PHILIPPINES</p></li>
+				</ul>
+				<div id="cntr">
+					<p>2023|©Renva Studios</p>
+				</div>
+				
+		</div>
+		<button id="tpbtn">Back to Top</button>
+			<script>
+				window.addEventListener('scroll', function() {
+			  var button = document.getElementById('tpbtn');
+			  if (document.documentElement.scrollTop > 300) {
+				button.style.display = 'block';
+			  } else {
+				button.style.display = 'none';
+			  }
+			});
+
+			document.getElementById('tpbtn').addEventListener('click', function() {
+			  document.body.scrollTop = 0;         // For Safari
+			  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, Opera
+			});
+			</script>
+	</div>
+
+</html>
+		
